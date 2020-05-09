@@ -4,6 +4,16 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
+/*
+Sample Input
+
+3
+1 2 5
+Sample Output
+
+4
+*/
+
 class Difference {
     private int[] elements;
     public int maximumDifference;

@@ -6,6 +6,18 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.*;
 
+/*
+Sample Input 0
+3
+Sample Output 0
+Weird
+Sample Input 1
+24
+Sample Output 1
+Not Weird
+
+*/
+
 public class Solution {
 
     private static final Scanner scanner = new Scanner(System.in);

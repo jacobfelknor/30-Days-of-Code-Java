@@ -1,5 +1,15 @@
 import java.util.*;
 
+/*
+    Sample Input:
+    Welcome to 30 Days of Code!
+
+    Sample Output:
+    Hello, World. 
+    Welcome to 30 Days of Code!
+
+*/
+
 public class Solution {
     public static void main(String[] args) {
         // Create a Scanner object to read input from stdin.

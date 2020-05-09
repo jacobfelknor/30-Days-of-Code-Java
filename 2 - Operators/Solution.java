@@ -1,6 +1,16 @@
 
 import java.util.*;
 
+/*
+    Sample Input:
+    12.00
+    20
+    8
+
+    Sample Output:
+    15
+*/
+
 public class Solution {
 
     // Complete the solve function below.

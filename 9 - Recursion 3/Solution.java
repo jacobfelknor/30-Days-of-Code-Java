@@ -6,6 +6,15 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.*;
 
+/*
+Sample Input
+
+3
+Sample Output
+
+6
+*/
+
 public class Solution {
 
     // Complete the factorial function below.

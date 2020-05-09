@@ -1,6 +1,23 @@
 import java.util.*;
 import java.io.*;
 
+/*
+Sample Input
+
+3
+sam 99912222
+tom 11122222
+harry 12299933
+sam
+edward
+harry
+Sample Output
+
+sam=99912222
+Not found
+harry=12299933
+*/
+
 class Solution {
     public static void main(String[] argh) {
         Scanner in = new Scanner(System.in);

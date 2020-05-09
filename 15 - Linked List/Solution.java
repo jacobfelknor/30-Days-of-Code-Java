@@ -11,6 +11,12 @@ class Node {
     }
 }
 
+/*
+ * Sample Input: 4 2 3 4 1
+ * 
+ * Sample Output: 2 3 4 1
+ */
+
 class Solution {
 
     public static Node insert(Node head, int data) {
