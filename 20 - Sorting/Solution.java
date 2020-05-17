@@ -4,6 +4,18 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
+/*
+Sample Input 1
+
+3
+3 2 1
+Sample Output 1
+
+Array is sorted in 3 swaps.
+First Element: 1
+Last Element: 3
+*/
+
 public class Solution {
 
     public static void swap(int a[], int i, int j) {
