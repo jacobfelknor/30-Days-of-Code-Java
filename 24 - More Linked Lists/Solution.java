@@ -41,20 +41,15 @@ class Solution {
             Boolean b = seen.get(node.data);
             if (b != null && b) {
                 // we've seen this data before...
-                if (prev == null) {
-                    // head case
-                    head = head.next;
-                } else {
-                    // unlink current node
-                    prev.next = node.next;
-                }
+                prev.next = node.next;
+                node = node.next;
             } else {
                 // store data as seen
                 seen.put(node.data, true);
+                prev = node;
+                node = node.next;
             }
 
-            prev = node;
-            node = node.next;
         }
 
         return head;
